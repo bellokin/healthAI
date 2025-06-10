@@ -35,7 +35,7 @@ SECRET_KEY = 'django-insecure-n(f56f966-@0=*0j%10uhv92px03fhq0!b7*9*cq+oh+7cm2kx
 DEBUG = True
 
 
-ALLOWED_HOSTS = ["http://localhost:3000/","https://howard-frontend.vercel.app/","https://healthai-1.onrender.com"]
+ALLOWED_HOSTS = ["http://localhost:3000","https://howard-frontend.vercel.app","https://healthai-1.onrender.com"]
 
 
  
@@ -69,7 +69,13 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'careerlyPyEngine.urls'
 
-CORS_ALLOW_ALL_ORIGINS = True  # Not recommended for production
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:3000",
+    "https://healthai-1.onrender.com",
+    "https://howard-frontend.vercel.app"
+    
+    
+]
 
 TEMPLATES = [
     {
