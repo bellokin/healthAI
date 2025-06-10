@@ -5,6 +5,9 @@ from careerlyPyEngine.configs.prompts.health import healthcare_prompt
 import json
 from django.core.cache import cache  # For storing conversation history
 
+
+
+@csrf_exempt
 @api_view(['POST'])
 def health_assistant(request):
     try:
