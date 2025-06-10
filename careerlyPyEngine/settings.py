@@ -35,7 +35,7 @@ SECRET_KEY = 'django-insecure-n(f56f966-@0=*0j%10uhv92px03fhq0!b7*9*cq+oh+7cm2kx
 DEBUG = True
 
 
-ALLOWED_HOSTS = ["http://localhost:3000/","https://howard-frontend.vercel.app/"]
+ALLOWED_HOSTS = ["http://localhost:3000/","https://howard-frontend.vercel.app/","https://healthai-1.onrender.com"]
 
 
  
