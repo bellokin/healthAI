@@ -5,6 +5,7 @@ from careerlyPyEngine.configs.prompts.health import healthcare_prompt
 import json
 from django.core.cache import cache  # For storing conversation history
 
+from django.views.decorators.csrf import csrf_exempt
 
 
 @csrf_exempt
