@@ -41,6 +41,8 @@ ALLOWED_HOSTS = [
     "howard-frontend.vercel.app",  # Your frontend domain
     "healthai-1.onrender.com",  # Your backend domain
     "127.0.0.1",  # Localhost IP
+    "http://localhost:3000",
+    "localhost:3000",
     ".vercel.app",  # Wildcard for all Vercel subdomains
     ".render.com",  # Wildcard for all Render subdomains
 ]
