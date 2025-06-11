@@ -43,6 +43,7 @@ ALLOWED_HOSTS = [
     "127.0.0.1",  # Localhost IP
     "http://localhost:3000",
     "localhost:3000",
+    "mopheth-health-ai.vercel.app",
     ".vercel.app",  # Wildcard for all Vercel subdomains
     ".render.com",  # Wildcard for all Render subdomains
 ]
@@ -80,7 +81,8 @@ ROOT_URLCONF = 'careerlyPyEngine.urls'
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "https://healthai-1.onrender.com",
-    "https://howard-frontend.vercel.app"
+    "https://howard-frontend.vercel.app",
+    "https://mopheth-health-ai.vercel.app",
     
     
 ]
